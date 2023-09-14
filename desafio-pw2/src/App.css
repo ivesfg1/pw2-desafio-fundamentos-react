@@ -1,0 +1,111 @@
+body,
+html {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.titulo,
+.mensagem p,
+p {
+	color: #372d3b;
+	font-family: "Inter", sans-serif, "Roboto";
+}
+
+.titulo h1,
+.titulo p {
+	font-size: 1.5625rem;
+	font-weight: 500;
+}
+
+.titulo h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #372d3b;
+}
+
+.cartao {
+	display: flex;
+	width: 800px;
+	padding: 24px 48px;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.6rem;
+	border-radius: 2.5rem;
+	background: #fff;
+}
+
+.mensagens {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	width: 100%;
+}
+
+.mensagem {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 0.75rem;
+	align-items: center;
+	border-radius: 0.5625rem;
+	border: 1px solid #f0eaea;
+	background: #e5e1e6;
+}
+
+.mensagem p {
+	font-size: 0.75rem;
+}
+
+.entrada {
+	display: flex;
+	align-items: center;
+	padding: 1.25rem 1.25rem;
+	width: calc(100% - 2.5rem);
+	border-radius: 1.5rem;
+	background: #f5edf7;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.botao {
+	display: flex;
+	padding: 1rem 1.5rem 0.875rem 1.5rem;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625rem;
+	background-color: #00875f;
+	border-radius: 0.5rem;
+	border: none;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.titulo,
+.informacao,
+.mensagem {
+	width: 100%;
+}
+
+.titulo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.titulo span {
+	color: #864293;
+}
+
+.informacao {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contato {
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+}
